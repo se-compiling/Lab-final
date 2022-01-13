@@ -1,0 +1,6 @@
+[jobs.mdarray]
+image = { source = "dockerfile", path = "."}
+
+run = [
+  "java -cp .:../src/antlr-4.9.2-complete.jar Main $input $ir",
+]
